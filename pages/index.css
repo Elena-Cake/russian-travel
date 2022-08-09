@@ -1,22 +1,13 @@
 @import url(../vendor/normalize.css);
-
-/* @font-face {
-    font-family: "Inter";
-    font-style: normal;
-    font-weight: 400;
-    
-    src: 
-         url("../vendor/fonts/Inter.var.woff2") format("woff2"),
-         url("../vendor/fonts/Inter-Regular.woff") format("woff"),
-         url("../vendor/fonts/Inter-Regular.woff2") format("woff");
-  } */
-
+@import url(../vendor/fonts/fonts.css);
 
 @import url(../blocks/page/page.css);
-/* header */
 
+/* header */
 @import url(../blocks/header/header.css);
 @import url(../blocks/header/__logo/header__logo.css);
-@import url(../blocks/header/__languages/header__languages.css);
-@import url(../blocks/header/__language/header__language.css);
+@import url(../blocks/header/__lang-links/header__lang-links.css);
+@import url(../blocks/header/__lang-link/header__lang-link.css);
+
+/*  */
 

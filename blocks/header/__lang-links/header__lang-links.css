@@ -1,8 +1,8 @@
-.header__languages {
+.header__lang-links {
     max-height: 30px;
     align-self: end;
 }
 
-.header__languages .active {
+.header__lang-links .active {
     text-decoration: underline;
 }
