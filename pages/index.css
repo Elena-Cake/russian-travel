@@ -24,8 +24,19 @@
 @import url(../blocks/intro/__list/_font/intro__list_font_bold.css);
 @import url(../blocks/intro/__list/_font/intro__list_font_regular.css);
 
+/* photo-grid */
 
+.photo-grid {
+width: calc(100% - 48px*2);
+margin: 0 auto;
+display: grid;
+grid-template-columns: repeat(4, 1fr);
+grid-template-rows: repeat(3, 1fr);
+}
 
+.photo-grid__item {
+
+}
 
 
 
