@@ -1,0 +1,40 @@
+@import url(../vendor/normalize.css);
+
+/* @font-face {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    
+    src: 
+         url("../vendor/fonts/Inter.var.woff2") format("woff2"),
+         url("../vendor/fonts/Inter-Regular.woff") format("woff"),
+         url("../vendor/fonts/Inter-Regular.woff2") format("woff");
+  } */
+
+
+@import url(../blocks/page/page.css);
+/* header */
+
+.header {
+    padding: 28px 48px 0;
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+}
+
+.header__languages {
+ position: absolute;
+ right: 0;
+ bottom: 0;
+}
+
+.header__language {
+    text-decoration: none;
+    font-family: 'Inter';
+    font-size: 24px;
+    color: rgb(255, 255, 255);
+}
+
+.header__languages .active {
+    text-decoration: underline;
+}
