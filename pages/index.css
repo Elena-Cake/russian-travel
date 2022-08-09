@@ -20,12 +20,12 @@
     display: flex;
     position: relative;
     justify-content: space-between;
+    
 }
 
 .header__languages {
- position: absolute;
- right: 0;
- bottom: 0;
+    max-height: 30px;
+    align-self: end;
 }
 
 .header__language {
@@ -33,6 +33,7 @@
     font-family: 'Inter';
     font-size: 24px;
     color: rgb(255, 255, 255);
+    margin-left: 18px;
 }
 
 .header__languages .active {
