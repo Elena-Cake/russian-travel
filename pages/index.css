@@ -15,27 +15,8 @@
 @import url(../blocks/page/page.css);
 /* header */
 
-.header {
-    padding: 28px 48px 0;
-    display: flex;
-    position: relative;
-    justify-content: space-between;
-    
-}
+@import url(../blocks/header/header.css);
+@import url(../blocks/header/__logo/header__logo.css);
+@import url(../blocks/header/__languages/header__languages.css);
+@import url(../blocks/header/__language/header__language.css);
 
-.header__languages {
-    max-height: 30px;
-    align-self: end;
-}
-
-.header__language {
-    text-decoration: none;
-    font-family: 'Inter';
-    font-size: 24px;
-    color: rgb(255, 255, 255);
-    margin-left: 18px;
-}
-
-.header__languages .active {
-    text-decoration: underline;
-}

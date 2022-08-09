@@ -1,0 +1,8 @@
+.header__languages {
+    max-height: 30px;
+    align-self: end;
+}
+
+.header__languages .active {
+    text-decoration: underline;
+}
