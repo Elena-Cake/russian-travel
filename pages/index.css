@@ -1,5 +1,5 @@
 @import url(../vendor/normalize.css);
-@import url(../vendor/fonts/fonts.css);
+@import url(../fonts/fonts.css);
 
 @import url(../blocks/page/page.css);
 
@@ -9,5 +9,41 @@
 @import url(../blocks/header/__lang-links/header__lang-links.css);
 @import url(../blocks/header/__lang-link/header__lang-link.css);
 
-/*  */
+/* lead */
 
+.lead {
+  max-width: 984px;
+  text-align: center;
+}
+
+.lead__title{
+  width: 720px;
+  margin: 56px auto 32px;
+font-style: normal;
+font-weight: 900;
+font-size: 96px;
+line-height: 100px;
+}
+
+.lead__subtitle {
+  width: 640px;
+  margin: 0 auto;
+  font-weight: 400;
+font-size: 30px;
+line-height: 36px;
+}
+
+.lead__image {
+  width: 100%;
+  margin: 64px auto 8px;
+}
+
+.lead__caption {
+  width: 160px;
+  margin: 0 auto 0 0;
+  font-weight: 400;
+font-size: 10px;
+line-height: 14px;
+  letter-spacing: 1.5px;
+text-transform: uppercase;
+}
