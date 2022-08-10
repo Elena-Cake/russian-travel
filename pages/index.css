@@ -41,8 +41,37 @@
 @import url(../blocks/place/__paragraphs/place__paragraphs.css);
 @import url(../blocks/place/__paragraph/place__paragraph.css);
 
+/* cover */
 
+.cover {
+    max-width: 1184px;
+    max-height: 740px;
+    margin: 0 auto;
+    background-image: linear-gradient(rgba(0,0,0,0.25), rgba(0,0,0,0.25)), url(../images/cover-background.jpg);
+    overflow: hidden;
+    position: relative;
+    
+}
 
+.cover__text {
+    max-width: 560px;
+    text-align: center;
+    margin: 245px auto;
+}
+
+.cover__title {
+    font-weight: 900;
+    font-size: 72px;
+    line-height: 76px;
+}
+
+.cover__subtitle {
+    max-width: 360px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    margin: 32px auto 0;
+}
 
 
 
