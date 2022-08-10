@@ -1,0 +1,5 @@
+.footer__links {
+    width: 35%;
+    display: flex;
+    justify-content: space-between;
+}

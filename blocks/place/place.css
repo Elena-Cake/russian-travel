@@ -1,7 +1,8 @@
 .place {
     display: grid;
     grid-template-columns: 50% 50%;
-    grid-template-rows: 152px 460px;
+    grid-template-rows: auto 460px;
     gap: 40px;
     overflow: hidden;
+    margin-top: 80px;
 }

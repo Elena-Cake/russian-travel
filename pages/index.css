@@ -49,47 +49,7 @@
 @import url(../blocks/cover/__subtitle/cover__subtitle.css);
 
 /* footer */
-
-.footer {
-    max-width: 1184px;
-    margin: 92px auto 0;
-    padding-bottom: 24px;
-    display: flex;
-    justify-content: space-between;
-}
-
-.footer__links {
-    width: 35%;
-    display: flex;
-    justify-content: space-between;
-}
-
-.footer__link {
-    text-decoration: none;
-    color: #FFF;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 18px;
-}
-
-.footer__copyright {
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 16px;
-    margin: 0;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+@import url(../blocks/footer/footer.css);
+@import url(../blocks/footer/__links/footer__links.css);
+@import url(../blocks/footer/__link/footer__link.css);
+@import url(../blocks/footer/__copyright/footer__copyright.css);
