@@ -55,6 +55,7 @@
 @import url(../blocks/footer/__copyright/footer__copyright.css);
 
 /* media */
+
 @media screen and (max-width: 1024px){
     /* lead */
     .lead {
@@ -100,7 +101,49 @@
 }
 
 @media screen and (max-width: 768px) {
-
+    .header {
+        width: 720px;
+        padding: 28px 0 0 0;
+    }
+    .lead__caption {
+        margin-left: 24px;
+    }
+    .intro {
+        width: 720px;
+        margin: 88px auto;
+    }
+    .photo-grid {
+        width: calc(100% - 24px*2);
+        max-width: 720px;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(6, 264px);
+        gap: 16px;
+        margin-bottom: 88px;
+    }
+    .places {
+        max-width: 720px;
+    }
+    .place {
+        grid-template-columns: 340px auto;
+        grid-template-rows: auto auto;
+        margin-top: 73px;
+        column-gap: 28px;
+    }
+    .place__title {
+        width: 320px;
+        font-size: 42px;
+        line-height: 46px;
+    }
+    .place__website {
+        align-self: start;
+    }
+    .place__image {
+        width: 340px;
+    }
+    .place__paragraphs {
+        font-size: 16px;
+        line-height: 163%;
+    }
 }
 
 @media screen and (max-width: 320px) {
