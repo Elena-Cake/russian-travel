@@ -56,21 +56,40 @@
 
 /* media */
 
-@media screen and (min-width: 768px) and (max-width: 1024px){
+@media screen and (min-width: 769px) and (max-width: 1024px){
     /* lead */
     .lead {
         max-width: 928px;
+        min-width: 768px;
     }
     .lead__title {
         margin-top: 48px;
+        font-size: 9.5vw ;
+    }
+    .lead__subtitle {
+        font-size: 3vw;
     }
     .lead__image {
         max-width: 928px;
+        min-width: 768px;
         margin-top: 56px;
     }
     /* intro */
     .intro {
-        width: 928px;
+        max-width: 928px;
+        min-width: 768px;
+    }
+    .intro__title {
+        font-size: 5.3vw;
+    }
+    .intro__text {
+        font-size: 1.55vw;
+    }
+    .intro__list_font_bold {
+        font-size: 1.2vw;
+    }
+    .intro__list_font_regular {
+        font-size: 1.2vw;
     }
     /* photo-grid */
     .photo-grid {
@@ -81,14 +100,25 @@
     /* places */
     .places {
         max-width: 924px;
+        min-width: 720px;
     }
     .place {
         grid-template-columns: 440px auto;
         grid-template-rows: auto 440px;
         column-gap: 32px;
     }
+    .place__title {
+        font-size: 7vw;
+    }
     .place__image {
         max-width: 440px;
+        min-width: 340px;
+    }
+    .place__website_type_link {
+        font-size: 1.7vw;
+    }
+    .place__paragraphs {
+        font-size: 1.75vw;
     }
     /* cover */
     .cover__text {
@@ -97,21 +127,50 @@
     /* footer */
     .footer {
         max-width: 928px;
+        min-width: 768px;
     }
 }
 
-@media screen and (min-width: 320px) and (max-width: 768px) {
+@media screen and (max-width: 768px) {
     .header {
-        width: 720px;
+        width: 98%;
+        max-width: 720px;
+        min-width: 465px;
         padding: 28px 0 0 0;
     }
-    .lead__caption {
+      .lead__caption {
         margin-left: 24px;
     }
+    .lead__title {
+        width: 90%;
+        font-size: 12.5vw;
+        margin: 50px auto 32px;
+    }
+    .lead__subtitle {
+        font-size: 4vw;
+    }
+    .lead__image {
+        margin: 53px auto 8px;
+    }
+    
     .intro {
+        width: 98%;
         max-width: 720px;
+        min-width: 288px;
         margin: 88px auto;
     }
+    .intro__text {
+        font-size: 2.1vw;
+    }
+.intro__title {
+    font-size: 7vw;
+}
+.intro__list_font_bold {
+    font-size: 1.55vw;
+}
+.intro__list_font_regular{
+    font-size: 1.55vw;
+}
     .photo-grid {
         width: calc(100% - 24px*2);
         max-width: 720px;
@@ -121,26 +180,31 @@
         margin-bottom: 88px;
     }
     .places {
+        width: 98%;
         max-width: 720px;
         margin: 90px auto;
     }
     .place {
-        grid-template-columns: 340px auto;
+        grid-template-columns: 47% auto;
         grid-template-rows: auto auto;
         margin-top: 74px;
         column-gap: 28px;
         row-gap: 45px;
     }
     .place__title {
-        width: 328px;
+        max-width: 328px;
         font-size: 42px;
         line-height: 46px;
     }
     .place__website_type_text {
         line-height: 12px;
+        font-size: 1.7vw;
     } 
+    .place__website_type_link {
+        font-size: 2.4vw;
+    }
     .place__image {
-        width: 340px;
+        width: 100%;
     }
     .place__paragraphs {
         font-size: 16px;
@@ -149,6 +213,7 @@
     .place__paragraph {
         margin-top: 25px;
     }
+  
     .cover__text {
         margin: 115px auto;
     }
@@ -156,7 +221,91 @@
         max-width: 720px;
         margin: 88px auto 0;
     }
+    
 }
+
+@media screen and (max-width: 465px) {
+    .lead__title {
+        width: 98%;
+        font-size: 40px;
+        line-height: 44px;
+        margin-bottom: 16px;
+    }
+    .lead__subtitle {
+        width: 98%;
+        font-size: 16px;
+        line-height: 20px; 
+    } 
+    .intro__title {
+        width: 80%;
+        font-size: 32px;
+        line-height: 35px;
+        margin: 0;
+    }
+    .intro__text {
+        width: 100%;
+        margin: 40px auto 34px;
+    }
+    .intro__list {
+        margin-top: 0;
+    }
+    .photo-grid {
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(6, 200px);
+        gap: 14px;
+    }
+    .place {
+        display: flex;
+        flex-direction: column;
+        margin: 50px auto 0;
+        padding: 0;
+        row-gap: 0;
+    }
+    .place:first-of-type {
+        margin-top: 0;
+    }
+    .place__title {
+        max-width: 288px;
+        font-size: 32px;
+        line-height: 35px;
+        margin: 0 auto 0 20%;
+    }
+    .place__website {
+        max-width: 288px;
+        margin: 32px auto 0 20%;
+    }
+    .place__image {
+        margin: 30px auto 0;
+        width: 100%;
+    }
+    .place__paragraphs {
+        max-width: 288px;
+        margin: 28px auto 0;
+        font-size: 16px;
+    }
+  .cover__title {
+        font-size: 32px;
+        line-height: 35px;
+    }
+    .cover__subtitle{
+        margin-top: 16px;
+        font-size: 14px;
+        line-height: 16px;
+    }
+     .footer__links { 
+        width: 50%;
+        flex-direction: column;
+        padding-left: 5%;
+    }
+    .footer__link {
+        font-size: 24px;
+        line-height: 24px;
+        margin-bottom: 32px;
+    }
+    .footer__copyright {
+        align-self: end;
+    }
+} 
 
 @media screen and (max-width: 320px){
     .header {
@@ -174,17 +323,6 @@
         max-width: 320px;
         margin-top: 48px;
     }
-    .lead__title {
-        width: 98%;
-        font-size: 40px;
-        line-height: 44px;
-        margin-bottom: 16px;
-    }
-    .lead__subtitle {
-        width: 98%;
-        font-size: 16px;
-        line-height: 20px; 
-    }
     .lead__image {
         width: 100%;
         margin: 40px 0 8px;
@@ -197,19 +335,6 @@
     .intro {
         max-width: 288px;
         margin: 64px auto 60px;
-    }
-    .intro__title {
-        width: 80%;
-        font-size: 32px;
-        line-height: 35px;
-        margin: 0;
-    }
-    .intro__text {
-        width: 100%;
-        margin: 40px auto 34px;
-    }
-    .intro__list {
-        margin-top: 0;
     }
     .photo-grid {
         width: 288px;
@@ -242,11 +367,11 @@
         margin: 32px auto;
     }
     .place__image {
-        max-width: 320px;
+        width: 100%;
         max-height: 320px;
     }
     .place__paragraphs {
-        width: 288px;
+        max-width: 288px;
         margin: 28px auto 0;
         font-size: 16px;
     }
