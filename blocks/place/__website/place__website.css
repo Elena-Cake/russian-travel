@@ -1,3 +1,6 @@
 .place__website {
-    align-self: center;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
 }

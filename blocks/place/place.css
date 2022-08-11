@@ -5,5 +5,8 @@
     column-gap: 40px;
     row-gap:  48px;
     overflow: hidden;
-    margin-top: 80px;
+    margin-top: 78px;
+    grid-template-areas:
+    "place__title place__website"
+    "place__image place__paragraphs"
 }
