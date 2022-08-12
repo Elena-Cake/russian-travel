@@ -2,4 +2,7 @@
     max-width: 560px;
     text-align: center;
     margin: 245px auto;
+    position: relative;
+    color: white;
+    z-index: 2;
 }
