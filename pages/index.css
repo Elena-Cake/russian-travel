@@ -96,6 +96,9 @@
         max-width: 440px;
         min-width: 340px;
     }
+    .cover__overlay {
+        max-height: 640px;
+    }
     /* cover */
     .cover__text {
         margin: 195px auto;
@@ -180,6 +183,9 @@
     }
     .place__paragraph {
         margin-top: 25px;
+    }
+    .cover__overlay {
+        max-height: 480px;
     }
     .cover__title {
         font-size: 9.3vw;
@@ -269,6 +275,9 @@
     }
     .cover {
         margin: 0 auto 60px;
+    }
+    .cover__overlay {
+        max-height: 300px;
     }
     .cover__title {
         font-size: 32px;
@@ -373,6 +382,9 @@
     }
     .cover {
         margin: 66px auto 64px;
+    }
+    .cover__overlay {
+        max-height: 200px;
     }
     .cover__text {
         margin: 33px auto;
