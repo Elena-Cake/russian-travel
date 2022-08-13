@@ -7,3 +7,46 @@
     overflow: hidden;
     margin-top: 80px;
 }
+
+@media screen and (min-width: 769px) and (max-width: 1024px){
+    .place {
+        grid-template-columns: 440px auto;
+        grid-template-rows: auto 440px;
+        column-gap: 32px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .place {
+        grid-template-columns: 47% auto;
+        grid-template-rows: auto auto;
+        margin-top: 74px;
+        column-gap: 28px;
+        row-gap: 46px;
+    }
+}
+
+@media screen and (max-width: 465px) {
+    .place {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        margin: 50px auto 0;
+        padding: 0;
+        row-gap: 0;
+    }
+    .place:first-of-type {
+        margin-top: 0;
+    }
+}
+
+@media screen and (max-width: 320px){
+    .place {
+        display: block;
+        margin: 50px auto 0;
+        padding: 0;
+    }
+    .place:first-of-type {
+        margin-top: 0;
+    }
+}

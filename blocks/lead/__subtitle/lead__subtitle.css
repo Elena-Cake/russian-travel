@@ -5,3 +5,18 @@
     font-size: 30px;
     line-height: 36px;
   }
+
+  @media screen and (max-width: 768px) {
+    .lead__subtitle {
+      width: 83%;
+      font-size: 4vw;
+  }
+  }
+
+  @media screen and (max-width: 465px) {
+    .lead__subtitle {
+      width: 98%;
+      font-size: 16px;
+      line-height: 20px; 
+  } 
+  }

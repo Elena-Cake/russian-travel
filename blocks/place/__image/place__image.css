@@ -2,3 +2,31 @@
     max-width: 460px;
     object-fit: contain;
 }
+
+@media screen and (min-width: 769px) and (max-width: 1024px){
+    .place__image {
+        max-width: 440px;
+        min-width: 340px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .place__image {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 465px) {
+    .place__image {
+        margin: 30px auto 0;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 320px){
+    .place__image {
+        width: 100%;
+        min-height: 322px;
+        margin: 0 auto;
+    }
+}

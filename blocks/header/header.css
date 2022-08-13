@@ -6,3 +6,18 @@
     position: relative;
     justify-content: space-between;
 }
+
+@media screen and (max-width: 768px) {
+    .header {
+        width: 98%;
+        max-width: 720px;
+        padding: 28px 0 0 0;
+    }
+}
+
+@media screen and (max-width: 320px){
+    .header {
+        max-width: 288px;
+        padding-top: 16px;
+    }
+}

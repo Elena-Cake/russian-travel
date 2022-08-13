@@ -2,6 +2,20 @@
     max-width: 690px;
     font-weight: 400;
     font-size: 16px;
-    line-height: 163%;
+    line-height: 160%;
+    margin-bottom: 33px;
+  }
+
+  @media screen and (max-width: 465px) {
+    .intro__text {
+      width: 100%;
+      margin: 40px auto 34px;
+  }
+  }
+
+  @media screen and (max-width: 320px) {
+    .intro__text {
+      line-height: 162%;
+  }
   }
   

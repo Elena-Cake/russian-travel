@@ -5,3 +5,32 @@
     display: flex;
     justify-content: space-between;
 }
+
+@media screen and (min-width: 769px) and (max-width: 1024px){
+    .footer {
+        max-width: 928px;
+        min-width: 768px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .footer {
+        margin: 88px auto 0;
+    }
+}
+
+@media screen and (max-width: 465px) {
+    .footer {
+        max-width: 288px;
+        margin: 0 auto 0 5%;
+        flex-direction: column;
+     }
+}
+
+@media screen and (max-width: 320px){
+    .footer {
+        max-width: 288px;
+        margin: 0 auto;
+        flex-direction: column;
+     }
+}

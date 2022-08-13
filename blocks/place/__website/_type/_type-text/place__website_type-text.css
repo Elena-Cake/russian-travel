@@ -4,3 +4,17 @@
     font-size: 1.1vw;
     line-height: 170%;
 }
+
+@media screen and (max-width: 768px) {
+    .place__website_type-text {
+        line-height: 12px;
+        font-size: 1.7vw;
+    } 
+}
+
+@media screen and (max-width: 465px) {
+    .place__website_type-text {
+        margin-top: 32px;
+        font-size: 4vw;
+    }
+}

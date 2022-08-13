@@ -5,3 +5,21 @@
     z-index: 2;
     justify-self: center;
 }
+
+@media screen and (min-width: 769px) and (max-width: 1024px){
+    .cover__text {
+        margin: 195px auto;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .cover__text {
+        margin: 115px auto;
+    }
+}
+
+@media screen and (max-width: 320px){
+    .cover__text {
+        margin: 33px auto;
+    }
+}

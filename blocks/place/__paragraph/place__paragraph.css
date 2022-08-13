@@ -6,3 +6,15 @@
 .place__paragraph:first-child {
     margin-top: 0;
 }
+
+@media screen and (max-width: 768px) {
+    .place__paragraph {
+        margin-top: 25px;
+    }
+}
+
+@media screen and (max-width: 320px){
+    .place__paragraph { 
+        margin-top: 23px;
+    }
+}

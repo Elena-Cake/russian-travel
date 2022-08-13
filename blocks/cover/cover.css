@@ -16,3 +16,15 @@
     left: 0px;
     background-color: rgba(0,0,0,0.25);
 }
+
+@media screen and (max-width: 465px) {
+    .cover {
+        margin: 0 auto 60px;
+    }
+}
+
+@media screen and (max-width: 320px){
+    .cover {
+        margin: 66px auto 64px;
+    }
+}

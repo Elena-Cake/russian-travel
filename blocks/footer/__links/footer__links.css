@@ -3,3 +3,25 @@
     display: flex;
     justify-content: space-between;
 }
+
+@media screen and (max-width: 768px) {
+    .footer__links {
+        width: 65%;
+    }
+}
+
+@media screen and (max-width: 465px) {
+    .footer__links { 
+        width: 50%;
+        flex-direction: column;
+        padding-left: 5%;
+    }
+}
+
+@media screen and (max-width: 320px){
+    .footer__links { 
+        padding-left: 0;
+        max-width: 288px;
+        flex-direction: column;
+    }
+}
