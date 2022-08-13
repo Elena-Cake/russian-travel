@@ -238,7 +238,12 @@
         grid-template-rows: repeat(6, 200px);
         gap: 14px;
     }
+    .places {
+        width: 100%;
+        margin: 0 auto;
+    }
     .place {
+        width: 100%;
         display: flex;
         flex-direction: column;
         margin: 50px auto 0;
@@ -345,10 +350,6 @@
         gap: 12px;
         margin-bottom: 62px;
     }
-    .places {
-        max-width: 320px;
-        margin: 0 auto;
-    }
     .place {
         display: block;
         margin: 50px auto 0;
@@ -365,16 +366,16 @@
     }
     .place__website {
         max-width: 288px;
-        margin: 32px auto;
+        margin: 32px auto 30px;
     }
     .place__image {
         width: 100%;
-        height: 320px;
+        min-height: 322px;
         margin: 0 auto;
     }
     .place__paragraphs {
         max-width: 287px;
-        margin: 30px auto 0;
+        margin: 29px auto 0;
         font-size: 16px;
     }
     .place__paragraph { 
