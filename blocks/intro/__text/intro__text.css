@@ -3,7 +3,14 @@
     font-weight: 400;
     font-size: 16px;
     line-height: 160%;
-    margin-bottom: 33px;
+    margin: 0 auto 33px 0;
+  }
+
+  @media screen and (max-width: 768px) {
+    .intro__text {
+      max-width: 720px;
+      margin: 40px auto 34px;
+  }
   }
 
   @media screen and (max-width: 465px) {

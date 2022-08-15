@@ -1,0 +1,14 @@
+.place__website-link {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    text-decoration-line: underline;
+    color: #FFF;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 768px) {
+    .place__website-link {
+        margin-left: 0;
+    }
+}

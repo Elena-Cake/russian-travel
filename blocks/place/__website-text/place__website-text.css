@@ -1,20 +1,20 @@
-.place__website_type-text {
+.place__website-text {
     margin: 0 auto 12px 0;
     font-weight: 400;
-    font-size: 1.1vw;
+    font-size: 12px;
     line-height: 170%;
+    letter-spacing: 2px;
+    color: #AAA;
 }
 
 @media screen and (max-width: 768px) {
-    .place__website_type-text {
+    .place__website-text {
         line-height: 12px;
-        font-size: 1.7vw;
     } 
 }
 
 @media screen and (max-width: 465px) {
-    .place__website_type-text {
+    .place__website-text {
         margin-top: 32px;
-        font-size: 4vw;
     }
 }

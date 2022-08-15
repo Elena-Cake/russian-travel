@@ -1,8 +1,7 @@
 .header__lang-links {
-    max-height: 30px;
+    list-style-type: none;
+    display: flex;
     align-self: end;
+    margin: 0 0 0 auto;
 }
 
-.header__lang-links .active {
-    text-decoration: underline;
-}

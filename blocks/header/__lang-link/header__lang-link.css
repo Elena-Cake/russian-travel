@@ -1,9 +1,13 @@
 .header__lang-link {
+    cursor: pointer;
     text-decoration: none;
-    font-family: 'Inter';
     font-size: 24px;
     color: rgb(255, 255, 255);
     margin-left: 18px;
+}
+
+.header__lang-link:first-of-type {
+    margin-left: 0;
 }
 
 @media screen and (max-width: 320px){

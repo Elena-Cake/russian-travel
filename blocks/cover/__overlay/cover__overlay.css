@@ -1,7 +1,7 @@
 .cover__overlay {
     position: relative;
     display: flex;
-    height: 740px;
+    min-height: 740px;
     width: 100%;
     cursor: pointer;
     color: #FFF;
@@ -12,24 +12,24 @@
 
 @media screen and (min-width: 769px) and (max-width: 1024px){
     .cover__overlay {
-        max-height: 640px;
+        min-height: 640px;
     }
 }
 
 @media screen and (max-width: 768px) {
     .cover__overlay {
-        max-height: 480px;
+        min-height: 480px;
     }
 }
 
 @media screen and (max-width: 465px) {
     .cover__overlay {
-        max-height: 300px;
+        min-height: 300px;
     }
 }
 
 @media screen and (max-width: 320px){
     .cover__overlay {
-        max-height: 200px;
+        min-height: 200px;
     }
 }
