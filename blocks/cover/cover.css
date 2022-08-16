@@ -15,7 +15,8 @@
     right: 0;
     bottom: 0;
     left: 0;
-    background-color: rgba(42, 44, 47, 0.8);
+    background-color: rgba(42, 44, 47);
+    opacity: 0.8;
 }
 
 @media screen and (max-width: 465px) {
