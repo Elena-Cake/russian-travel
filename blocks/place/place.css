@@ -4,7 +4,6 @@
     grid-template-rows: auto 460px;
     column-gap: 40px;
     row-gap:  48px;
-    overflow: hidden;
     margin-top: 80px;
 }
 
@@ -44,9 +43,5 @@
     .place {
         display: block;
         margin: 50px auto 0;
-        padding: 0;
-    }
-    .place:first-of-type {
-        margin-top: 0;
     }
 }
