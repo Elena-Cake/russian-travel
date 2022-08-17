@@ -1,5 +1,6 @@
 .cover {
     max-width: 1184px;
+    width: calc(100%*(1184/1280));
     margin: 0 auto;
     padding: 280px auto;
     position: relative;
@@ -8,15 +9,11 @@
     background-position: center;
 }
 
-.cover:hover:before {
-    content: "";
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    background-color: rgba(42, 44, 47);
-    opacity: 0.8;
+@media screen and (max-width: 1024px) {
+    .cover {
+        width: 100%;
+        margin: 0 auto 60px;
+    }
 }
 
 @media screen and (max-width: 465px) {

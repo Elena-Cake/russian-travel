@@ -1,5 +1,6 @@
 .intro {
     max-width: 984px;
+    width: calc(100%*(984/1280));
     margin: 92px auto;
   }
   
@@ -7,6 +8,7 @@
     .intro {
       max-width: 928px;
       min-width: 768px;
+      margin-left: 48px;
   }
   }
 
